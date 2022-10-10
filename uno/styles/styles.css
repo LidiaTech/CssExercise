@@ -1,0 +1,41 @@
+a:link { text-decoration: none; }
+a{
+    color: beige;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+nav{
+    background-color: #e48055;
+    color: aliceblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
+}
+header{
+    position: sticky;
+    top: 10px;
+}
+/* Es la primera vez que pruebo hover T^T */
+a:hover{
+    background-color: rgb(160, 134, 154);
+    border-radius: 5%;
+    padding: 0.5%;
+}
+section{
+    margin-right: 4%;
+    margin-left: 4%;
+}
+.but{
+    display: flex;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #e48055;
+    color: aliceblue;
+    justify-content: center;
+    position:fixed;
+    top: 95%;
+    left: 90%;
+}
