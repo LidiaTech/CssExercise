@@ -1,0 +1,26 @@
+section {
+    width: 1000px;
+    height: 500px;
+    margin: 3rem auto;
+    background-color: navy;
+
+    /* Your code here: */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20%;
+    align-content: center;
+    justify-content: space-around;
+    flex-grow: 50%;
+
+
+
+}
+
+div {
+    /* Your code here: */
+    background-color: black;
+    border: solid 1px wheat;
+    width: 200px;
+    height: 90px;
+}
